@@ -1,0 +1,75 @@
+.navbar{
+    background-color: #f5d57d !important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.fa-credit-card, .fa-user{
+    font-size: 32px !important;
+}
+
+.fa-truck,.fa-phone,.fa-money{
+    font-size: 52px !important;
+    margin-left: 20px;
+    margin-right: 30px;
+    color: #f57207;
+}
+h3{
+    color:#662b09;
+}
+
+.service1,.service2,.service3{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: #fff5ab;
+    box-shadow: 2px 4px 6px black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.ourService{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 180px;
+    margin: 20px;
+    
+}
+
+.mainmobile{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.heading{
+    font-weight: bolder;
+    color: #f57207;
+    margin: 30px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:600px) {
+    .carousel-item > img{
+        width: 100% !important;
+    }
+    .service1,.service2,.service3{
+        width: 100% !important;
+    }
+    .card{
+        width: 70% !important;
+        
+        margin-right: 60px !important;
+        margin-left: 60px !important;
+    }
+   
+}
