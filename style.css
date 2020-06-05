@@ -57,7 +57,13 @@ h3{
     text-align: center;
     
 }
-
+.copy{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+}
 @media screen and (max-width:600px) {
     .carousel-item > img{
         width: 100% !important;
